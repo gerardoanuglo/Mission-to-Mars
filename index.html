@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mars Home Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="jumbotron text-center">
+            <h1 class="display-4">Mission to Mars</h1>
+            <a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape New Data</a>
+        </div>
+        <!-- Second row/ latest mars news-->
+        <div class="row">
+            <h1>Latest Mars News</h1>
+            <h3>{{mars.news_title}}</h3>
+            <p>
+            {{mars.news_paragraph}}
+            </p>
+        </div>
+        <!-- Photo and table -->
+        <div class="row">
+            <div class="col-8">
+                <h1> Featured Mars Image </h1>
+                <img src="{{mars.mars_images}}"/>
+            </div>
+            <div class="col-4">
+                <h2>Mars Facts</h2>
+                {{ mars.facts }}
+            </div>
+        </div>
+        <-- Mars hemisphere Images and titles
+        <div class="row">
+            <div class="page-header">
+                <h2 class="text-center">Mars Hemispheres</h2>
+            </div>
+            {% for hemisphere in mars.hemispheres %}
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="{{hemisphere.img_url}}" alt="...">
+                    <div class="caption">
+                        <h3>{{hemispheres.title}}</h3>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>

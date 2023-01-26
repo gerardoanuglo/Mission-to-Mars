@@ -2,7 +2,7 @@
 
 I will built a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page.
 
-## Instructions
+### Instructions
 
 1. Scraping
 
@@ -24,7 +24,7 @@ Part 2: MongoDB and Flask Application
 
 - Use MongoDB with Flask templating to create a new HTML page that displays all the information that was scraped from the URLs above.
 
-## Tools:
+### Tools:
 
 
 1. Jupyter Notebook

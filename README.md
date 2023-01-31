@@ -27,7 +27,9 @@ First I conducted the web scraping in a Jupyter Notebook to validate each step w
 
 Once I completed this stage of the project I converted the Jupyter Notebook into a python script (file name "scrape_mars.py"). Most importantly I created a function that executed all the scraping code and returned all the scraped data in one Python dictionary. 
 
-Then I created a Flask app (file name "app.py") with a scrape route that essentially imported my python script, called the function mentioned above and stored the data in MongoDB. 
+Then I created a Flask app (file name "app.py") with a route that essentially imported my python script, called the function mentioned above and stored the data in MongoDB. 
+
+<img width="1061" alt="Screenshot_20230130_122052" src="https://user-images.githubusercontent.com/85320743/215638993-6c7e0c6b-cd51-478b-a53a-1f6af638e1d3.png">
 
 Afterwards I created the root route that queried my Mongo database and passed the Mars data into an HTML template for displaying the data. 
 

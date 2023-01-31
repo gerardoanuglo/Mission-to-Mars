@@ -1,6 +1,6 @@
 # The Latest News On The Mission To Mars
 
-**I built a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page.**
+I built a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page.
 
 As a data scientist, web scraping is an integral skill. It's how we access and collect data from the internet, which allows us to extract insights out of the data. The ability to collect and store unstructured data is also very important because in the real world data isn’t always structured. These ideas are the reason why I decided to do this project. 
 

@@ -22,8 +22,8 @@ After:
 First I conducted the web scraping in a Jupyter Notebook to validate each step worked correctly and as intended. This included:
 
 - Checking my WebDriver and ChromeDriverManager were working properly. They essentially allowed me to navigate to the site I wanted. 
-- Checking, I collected the intended data from each site.
-- Checking I could access my Mongo Database and correctly store data. 
+- Confirming I collected the intended data from each site.
+- Confirming I could access my Mongo Database and correctly store data. 
 
 Once I completed this stage of the project I converted the Jupyter Notebook into a python script (file name "scrape_mars.py"). Most importantly I created a function that executed all the scraping code and returned all the scraped data in one Python dictionary. 
 

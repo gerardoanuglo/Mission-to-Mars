@@ -11,13 +11,13 @@ Information being scraped includes:
 - Images of the Mars hemispheres
 
 
-Below Pressing The Button "Scrape New Data":
+Before Pressing The Button "Scrape New Data":
 <img width="1128" alt="Screenshot_20230130_121516" src="https://user-images.githubusercontent.com/85320743/215621477-5557188a-3f63-4050-aa0a-1c614743b3a7.png">
 
 After:
 <img width="1128" alt="Screenshot_20230130_121851" src="https://user-images.githubusercontent.com/85320743/215621510-6ee876d7-2e93-4b18-91c9-8ceab0c2b338.png">
 
-## A Breif Description Of My Process
+## A Brief Description Of My Process
 
 First I conducted the web scraping in a Jupyter Notebook to validate each step worked correctly and as intended. This included:
 
@@ -34,7 +34,7 @@ Afterwards I created the root route that queried my Mongo database and passed th
 Finally, I created a HTML file that took the Mars data dictionary and displayed all the data in the appropriate HTML elements. 
 
 ### Conclusion
-WIth this project my goal was to showcase my ability to web scrape, store unstructured data in a NoSQL database and use flask to build a web application. As a data scientist, I could use these skills in a machine learning project that uses the data to uncover insights and bring value to a company. 
+With this project my goal was to showcase my ability to web scrape, store unstructured data in a NoSQL database and use flask to build a web application. As a data scientist, I could use these skills in a machine learning project that uses the data to uncover insights and bring value to a company. 
 
 ## Additional Information
 

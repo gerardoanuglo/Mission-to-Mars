@@ -11,10 +11,10 @@ Information being scraped includes:
 - Images of the Mars hemispheres
 
 
-Before Pressing The Button "Scrape New Data":
+### Before Scraping Data
 <img width="1128" alt="Screenshot_20230130_121516" src="https://user-images.githubusercontent.com/85320743/215621477-5557188a-3f63-4050-aa0a-1c614743b3a7.png">
 
-After:
+### After Scraping Data
 <img width="1128" alt="Screenshot_20230130_121851" src="https://user-images.githubusercontent.com/85320743/215621510-6ee876d7-2e93-4b18-91c9-8ceab0c2b338.png">
 
 ## A Brief Description Of My Process
@@ -31,9 +31,11 @@ Then I created a Flask app (file name "app.py") with a route that essentially im
 
 <img width="1061" alt="Screenshot_20230130_122052" src="https://user-images.githubusercontent.com/85320743/215638993-6c7e0c6b-cd51-478b-a53a-1f6af638e1d3.png">
 
-Afterwards I created the root route that queried my Mongo database and passed the Mars data into an HTML template for displaying the data. 
+I did the next two steps concurrently, going back and forth to ensure the code was excuting as intended:
 
-Finally, I created a HTML file that took the Mars data dictionary and displayed all the data in the appropriate HTML elements. 
+- I created the root route that queried my Mongo database and passed the Mars data as a dictionary into an HTML template.
+
+- I created a HTML file that would take the Mars data dictionary and display it all the data in the appropriate HTML elements. 
 
 ### Conclusion
 With this project my goal was to showcase my ability to web scrape, store unstructured data in a NoSQL database and use flask to build a web application. As a data scientist, I could use these skills in a machine learning project that uses the data to uncover insights and bring value to a company. 
